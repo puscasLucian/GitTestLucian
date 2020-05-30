@@ -67,6 +67,10 @@ public class DriverHelper {
     }
 
 
+
+ public boolean checkElement(WebElement element){
+      return isDisplayed(element);
+ }
 }
 
 

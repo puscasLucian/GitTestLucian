@@ -1,13 +1,11 @@
 package epneuMenuObjects;
 
 import driverConfiguration.DriverHelper;
-import org.apache.bcel.generic.Select;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import java.util.List;
 
@@ -18,13 +16,15 @@ public class HomePageObjects extends DriverHelper {
     @FindBy(how = How.CSS, using = ".main-nav a")
     private List<WebElement> mainMenuNavigationButtons;
 
-    // region ElementsOnPage
-
     @FindBy(how = How.CSS, using = ".__ra-desktop-vs")
     private WebElement closeFirst;
 
     @FindBy(how = How.CSS, using = ".__ra-desktop-vs a")
     private List<WebElement> closeSecond;
+
+    // region ElementsOnPage
+
+
 
     @FindBy(how = How.ID, using = "tab_auto")
     private WebElement menuAutoDropdown;
@@ -158,10 +158,13 @@ public class HomePageObjects extends DriverHelper {
         for (int i = 0; i < mainMenuNavigationButtons.size(); i++) {
             String urlToVerify = returnHref(mainMenuNavigationButtons.get(i));
             clickElement(mainMenuNavigationButtons.get(i));
+            if (checkElement(closeFirst) == true) {
+                closeSecond.get(1).click();}
+            else {continue;}
             verifyPageUrl(urlToVerify);
         }
-
     }
+
 
     public void searchAnvelopeAutoPret() {
 

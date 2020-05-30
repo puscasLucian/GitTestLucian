@@ -37,8 +37,7 @@ public class HomeTest extends DriverHelper {
 
     @Test
     public void navigateSearchMenuItems() {
-        homepage.searchAnvelopeAutoPret();
-        homepage.searchAnvelopeCamioanePret();
+      homepage.navigateMenuItems();
 
     }
 
