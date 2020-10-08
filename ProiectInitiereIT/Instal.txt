@@ -1,0 +1,6 @@
+Pentru a conecta baza de date :
+
+1.fa un Folder nou in fisierul de Wamp/WWW/ProiectAzimut si pui fisierul php acolo sau modifica action="" din tagul de form in HTML cu localhost si il pui tu unde vrei.
+2.creaza o baza de date cu nuleme "proiectscoala" si un Tabel cu numele "datescoala" care sa aiba nume , email, Tel care sa se poata lega la HTML
+3.daca nu merge incearca sa vezi daca serverName e diferit de "127.0.0.1" si modifica.
+4.Mult Succes

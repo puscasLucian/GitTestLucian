@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
+	<title>
+	Proiect Azimut
+	</title>
+</head>
+<body>
+	<h1>Scoala de Dans</h1>
+	<div class="button">
+		<button id="button1" onclick="buton()"><h6>Click me i make orange background</h6></button>
+		<br>
+		<button id="button2" onclick="buton1()"><h6>Click me i make red background</h6></button>
+		<br>
+		<button id="button3" onclick="buton2()"><h6>Click me i make green background</h6></button>
+	</div>
+	<div class="mid" id="mijloc">
+		<h2>Despre dans</h2>
+		<div class="paragraf" id="dans" >
+			<p>-Dansul energic este cea mai bună modalitate de a-ți menține silueta și în același timp de a se distra la maxim! </p>
+			<p>-Salsa, zumba, baletul, dansul de societate sunt doar cîteva dintre tipurile de dans care te ajută în modul corespunzător. În plus, sunt mult mai distractive în comparație cu orele de aerobic și îți oferă o mulțime de energie și emoții pozitive.</p>
+		</div>
+		<h3>Dansul Clasic</h3>
+		<div class="balet">
+			<p  id="balet">-Dansul clasic poate că nu se numără printre cele mai populare metode de a te menține în formă, dar asta nu înseamnă că baletul nu are beneficiile lui. Iată numai o parte dintre acestea, experimentate pe propria piele de o persoană care l-a practicat vreme de 14 ani.</p>
+			<a href="https://www.elle.ro/health-diet/dansul-clasic-numai-beneficii-spune-o-persoana-care-l-practicat-14-ani-661571/" target="_blank"><img src="balet.jpg" alt="poza balet"></a>
+		</div>
+		<h4>Salsa si Latino</h4>
+		<div class="salsa">
+			<p  id="salsa">-Salsa, zumba, baletul, dansul de societate sunt doar cîteva dintre tipurile de dans care te ajută în modul corespunzător. În plus, sunt mult mai distractive în comparație cu orele de aerobic și îți oferă o mulțime de energie și emoții pozitive.</p>
+			<a href="https://latinbeat.ro/salsa/" target="_blank"><img src="dance.jpg" alt="Poza dance"></a>
+		</div>
+	</div>
+	<div class="link">
+	    <h5>Informatii</h5>
+		<a href="https://ro.wikipedia.org/wiki/Balet" target="_blank"> despre Balet</a>
+		<br>
+		<a href="https://ro.wikipedia.org/wiki/Dansuri_latino" target="_blank"> despre Latino</a>
+	</div>
+
+	<form class="form1" action="http://localhost/ProiectAzimut/index.php" method="POST">
+		<input type="text" name="nume" placeholder="Nume" required>
+		<br>
+		<input type="number" name="tel" placeholder="Telefon" required>
+		<br>
+		<input type="email" name="email" placeholder="Email"required>
+		<br>
+		<input type="submit" class="button4" id="submit">
+	</form>
+</body>
+</html>

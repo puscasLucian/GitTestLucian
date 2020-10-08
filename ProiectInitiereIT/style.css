@@ -1,0 +1,169 @@
+ * {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box; 
+}
+body {
+	font-family:'Indie Flower', cursive ;
+	background-color:#E9EBE5;
+}
+h1 { 
+	font-family:arial;
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:20px;
+	font-weight:bolder;
+	font-size:80px;
+	color:#991C13;
+}
+/*Partea din mijloc*/
+
+.mid{
+	
+	border:5px solid #991C13;
+	margin-right:20%;
+	border-radius:10px;
+	padding-bottom:50px;
+	background-color:orange;
+	
+}
+/*Paragraf dans*/
+
+h2{
+	padding-top:50px;
+	margin-left:15%;
+	margin-bottom:20px;
+	font-size:50px;
+	color:#3F9832;
+	
+}
+.paragraf{
+	margin-left:50px;
+	margin-right:42%;
+	margin-top:20px;
+	background-color:#E3655B;
+	border-radius:10px;
+	border:5px solid #3F9832;
+	
+}
+ p{
+	padding:10px;
+	font-weight:bold;
+}
+#dans {
+	font-family:helvetica;
+}
+#balet{
+	font-family:'Dancing Script', cursive;
+	font-size:20px;
+}
+/*Balet paragraf*/
+h3{
+	font-size:40px;
+	margin-top:-20px;
+	margin-left:45%;
+	margin-bottom:20px;
+	text-align:center;
+	color:#991C13;
+	
+}
+.balet{
+	margin-left:50%;
+	margin-right:15px;
+	background-color:#636CE2;
+	border-radius:10px;
+	border:5px solid #991C13;
+}
+
+
+/*Salsa latino*/
+h4{
+	padding-top:10px;
+	margin-top:-20px;
+	margin-left:15%;
+	margin-bottom:20px;
+	font-size:30px;
+	color:#636CE2;
+}
+.salsa{
+	margin-left:20px;
+	margin-right:50%;
+	background-color:#3F9832;
+	border-radius:10px;
+	border:5px solid #636CE2;
+}
+/*imagini*/
+
+img{
+	width:200px;
+	border-radius:10px;
+}
+
+/*Butoane*/
+
+ .button { 
+	background-color:#C1CDE6;
+	padding:75px;
+	padding-bottom:5%;
+	border:5px solid #E9EBE5;
+	border-radius:10px;
+	float: right;
+ }
+ #button1{
+	 background-color:orange;
+	 padding:17px;
+	 margin-bottom:20px;
+	 border-radius:10px;
+ }
+ #button2{
+	 background-color:#E3655B;	
+	 padding:17px;
+	 margin-top:20px;
+	 margin-bottom:20px;
+	 border-radius:10px;
+	
+ }
+ #button3{
+	background-color:#3F9832;
+	 padding:17px;
+	 margin-top:20px;
+	 border-radius:10px;
+ }
+ /*Partea de link*/
+ 
+ .link{
+	 background-color:#C1CDE6;
+	text-align:right;
+	padding:110px 65px 110px 85px;
+	margin-top:-37%;
+	border:5px solid #E9EBE5;
+	border-radius:10px;
+	float: right;
+ }
+ h5{
+	 padding:0px 40px 30px 40px;
+	 margin-top:-40px;
+	font-family:'Dancing Script', cursive;
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:bolder;
+	
+ }
+ a {
+	 margin-right:50px;
+	 color:red;
+ }
+ /*Form*/
+ 
+ .form1{
+	display:block;
+	padding:130px 65px 120px 100px;
+	background-color:#C1CDE6;
+	text-align:right;
+	margin-top:-20%;
+	border:5px solid #E9EBE5;
+	border-radius:10px;
+	float: right;
+ }
+
+
